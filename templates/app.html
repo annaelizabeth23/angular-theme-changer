@@ -1,4 +1,14 @@
-<h1>Theme Changer from Template URL</h1>
-<div>Allow edit: {{myCtrl.allowEdit}}</div>
-<div>Font color: {{myCtrl.fontColor}}</div>
+
+<div class="headerBar">
+    <color-changer font-color="myCtrl.fontColor" update="myCtrl.updateColor(value)"></color-changer>
+</div>
+
+<!-- <div>Allow edit: {{myCtrl.allowEdit}}</div>
+<div>Font color: {{myCtrl.fontColor}}</div> -->
 <div>Component state: {{myCtrl}}</div>
+
+
+
+<div class="textArea">
+    <textarea></textarea>
+</div>

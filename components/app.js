@@ -3,6 +3,9 @@ angular.module('themeChanger').component('app', {
     controller: function(){
         this.allowEdit = true;
         this.fontColor = 'black';
+        this.updateColor = function(val) {
+            this.fontColor = val;
+        }
     },
     controllerAs: 'myCtrl'
 });

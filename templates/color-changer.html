@@ -1,0 +1,12 @@
+Color:
+
+<select
+    class="dropDownContainer"
+    ng-model="$ctrl.fontColor"
+    ng-change="$ctrl.update({value: $ctrl.fontColor})"
+    <!-- this value starts here ^ and then goes to controller (which can be on the component or elsewhere- in this case it is on the app.js), then to the component -->
+>
+    <option value="black">Black</option>
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+</select>
