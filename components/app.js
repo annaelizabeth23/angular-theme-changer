@@ -5,7 +5,10 @@ angular.module('themeChanger').component('app', {
         this.fontColor = 'black';
         this.updateColor = function(val) {
             this.fontColor = val;
-        }
+        };
+        this.updateSize = function(val) {
+            this.fontSize = val;
+        };
     },
     controllerAs: 'myCtrl'
 });

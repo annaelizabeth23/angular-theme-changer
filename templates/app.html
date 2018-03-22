@@ -1,6 +1,8 @@
 
 <div class="headerBar">
     <color-changer font-color="myCtrl.fontColor" update="myCtrl.updateColor(value)"></color-changer>
+    <font-size font-size="myCtrl.fontSize" update="myCtrl.updateSize(value)"></font-size>
+    <allow-edit allow-edit="myCtrl.allowEdit" update="myCtrl.updateEdit(value)"></allow-edit>
 </div>
 
 <!-- <div>Allow edit: {{myCtrl.allowEdit}}</div>
@@ -10,5 +12,5 @@
 
 
 <div class="textArea">
-    <textarea></textarea>
+    <textarea cols="90" rows="30" placeholder="Write text here!" ng-style= "{color: myCtrl.fontColor}" "{font-size: myCtrl.fontSize}"></textarea>
 </div>

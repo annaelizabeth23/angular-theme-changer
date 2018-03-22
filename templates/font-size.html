@@ -1,0 +1,10 @@
+<select
+    class="dropDownContainer"
+    ng-model="$ctrl.fontSize"
+    ng-change="$ctrl.update({value: $ctrl.fontSize})"
+    <!-- this value starts here ^ and then goes to controller (which can be on the component or elsewhere- in this case it is on the app.js), then to the component -->
+>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+</select>
